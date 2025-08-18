@@ -44,7 +44,7 @@ Activate the environment you just created:
 conda activate project-name
 ```
 
-## Installl Libraries
+## Install Libraries
 Install libraries inside your active environment. These will only be available within this environment:
 ```bash
 conda install numpy scikit-learn matplotlib
