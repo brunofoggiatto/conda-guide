@@ -7,7 +7,7 @@ This guide is a introduction to using Conda, a powerful tool for managing enviro
 - [Confirm the Installation](#confirm-installation)
 - [Create a New Environment](#new-environment)
 - [Activate Environment](#activate-environment)
-- [Installl Libraries](#install-libaries)
+- [Install Libraries](#install-libaries)
 - [Run a Script](#run-script)
 - [Manage Environments](#manage-environments)
 
