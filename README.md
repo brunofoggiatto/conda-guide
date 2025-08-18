@@ -1,5 +1,5 @@
-## Conda Guide
-# A Guide to Getting Started with Conda
+# Conda Guide
+## A Guide to Getting Started with Conda
 This guide is a introduction to using Conda, a powerful tool for managing environments and packages. It's designed for beginners who want to organize data and software development projects efficiently and in isolation.
 
 ## Table of Contents
