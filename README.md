@@ -1,5 +1,5 @@
 # Conda Guide
-## This guide is a introduction to using Conda, a powerful tool for managing environments and packages. It's a guide for beginners who want to organize data and software development projects efficiently and in isolation.
+## It's a guide for beginners who want to organize data and software development projects efficiently and in isolation.
 
 ## Table of Contents
 - [Install Conda](#install-conda)
@@ -16,7 +16,7 @@ First, you need to download and execute the installation script for Miniconda, i
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
 ```
-**NOTE: After the installation, please, reboot your machine.**
+**NOTE**: After the installation, please, reboot your machine.**
 
 ## Confirm the Installation
 Now use the command below to confirm and see the installed packages:
@@ -47,7 +47,11 @@ conda activate project-name
 ## Install Libraries
 Install libraries inside your active environment. These will only be available within this environment:
 ```bash
-conda install numpy scikit-learn matplotlib
+conda install pandas
+```
+Or install multiple libraries at once:
+```bash
+conda install matplotlib numpy ...
 ```
 
 To install a specific version of a package, use:
@@ -74,4 +78,4 @@ To remove an environment:
 conda remove -n project-name --all
 ```
 
-
+**Author:** Bruno H. Foggiatto
